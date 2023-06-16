@@ -19,7 +19,7 @@ body {
     color: #fff;
 }
 
-.contact-svg {
+.header__contact-svg {
     fill: currentColor;
 
     align-content: baseline;
@@ -36,14 +36,14 @@ body {
     margin-right: auto;
 }
 
-header {
+.header {
     border-bottom: solid;
 
     border-color: #ececec;
     margin: 0 auto;
 }
 
-.menu-block {
+.header__wrapper {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -53,25 +53,25 @@ header {
     color: #fff;
 }
 
-.nav-menu {
+.header__menu {
     display: flex;
     width: 285px;
     justify-content: space-between;
     margin-right: 314px;
 }
 
-.menu {
+.header__item {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
 }
-.is-active {
+.header .header__item--active {
     text-decoration: none;
     position: relative;
     color: #2196f3;
 }
-.is-active::after {
+.header .header__item--active::after {
     position: absolute;
     content: "";
     height: 4px;
@@ -83,7 +83,7 @@ header {
     background: #2196f3;
 }
 
-.contact-up {
+.header__contact-list {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
@@ -117,18 +117,18 @@ li {
     gap: 30px;
     padding: 0;
 }
-.main-image {
+.main-images__image {
     position: relative;
 }
 
-.main-image-back {
+.main-images__back {
     width: 100%;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
     position: absolute;
     bottom: 0;
 }
-.main-image-desc {
+.main-images__desc {
     font-size: 14px;
     font-weight: 700;
     color: #fff;
@@ -145,7 +145,7 @@ li {
     line-height: 1.14;
 }
 
-.contact {
+.header__contact {
     display: flex;
     justify-content: baseline;
     align-items: center;
@@ -157,14 +157,8 @@ li {
     font-size: 14px;
 
     letter-spacing: 0.02em;
-}
-.contact {
     margin: 0 auto;
-    color: #757575;
-    font-size: 14px;
     line-height: 1.17;
-    width: 161px;
-    align-items: center;
 }
 
 a:hover,
@@ -174,7 +168,7 @@ a:focus {
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
 
-.icon-menu {
+.highlights__icon {
     background-color: #f5f4fa;
     border-radius: 4px;
     padding-top: 25px;
@@ -217,7 +211,7 @@ h4 {
     color: #fff;
     text-transform: uppercase;
 }
-.big-button {
+.banner__button {
     display: flex;
     align-items: center;
     text-align: center;
@@ -234,8 +228,8 @@ h4 {
     justify-content: center;
 }
 
-.big-button:hover,
-.big:focus {
+.banner__button:hover,
+.banner__button:focus {
     cursor: pointer;
 }
 
@@ -275,7 +269,7 @@ h4 {
     border-radius: 4px;
 }
 
-.modal-close {
+.modal__modal-close {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -292,8 +286,8 @@ h4 {
     cursor: pointer;
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal__modal-close:hover,
+.modal__modal-close:focus {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -322,14 +316,14 @@ h4 {
     padding: 0;
     gap: 30px;
 }
-.highlight {
+.highlights__item {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.highlight-desc {
+.highlights__desc {
     color: #757575;
     font-weight: 400;
     font-size: 14px;
@@ -351,13 +345,13 @@ img {
     display: block;
 }
 
-.our-team-section {
+.people {
     display: flex;
     gap: 30px;
     margin: 0 auto;
     padding: 0px;
 }
-.person-pic {
+.people__person-pic {
     width: 270px;
     height: 260px;
 }
@@ -377,10 +371,10 @@ img {
     fill: #fff;
 }
 
-.social-bottom > .social-icons > .social {
+.social-bottom > .social-icons > .social-icons__icon {
     background-color: rgba(255, 255, 255, 0.1);
 }
-.social {
+.social-icons__icon {
     width: 44px;
     height: 44px;
 
@@ -394,19 +388,19 @@ ul.social-icons li {
     align-items: center;
     justify-content: space-around;
 }
-.social:hover {
+.social-icons__icon:hover {
     fill: white;
     background-color: #2196f3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
 
-.social-bottom > .social-icons > .social:hover {
+.social-bottom > .social-icons > .social-icons__icon:hover {
     background-color: #2196f3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
-.person-space {
+.people__person-space {
     background-color: #fff;
     width: 270px;
     height: 428px;
@@ -416,11 +410,11 @@ ul.social-icons li {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.full-team-section {
+.team-section {
     background-color: #f5f4fa;
 }
 
-.name {
+.people__name {
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -428,7 +422,7 @@ ul.social-icons li {
     padding-top: 30px;
 }
 
-.function {
+.people__function {
     display: flex;
     justify-content: center;
     color: #757575;
@@ -437,7 +431,7 @@ ul.social-icons li {
     padding-bottom: 16px;
 }
 
-.our-customers-list {
+.customers {
     display: flex;
     flex-wrap: nowrap;
 
@@ -446,7 +440,7 @@ ul.social-icons li {
     margin: 0 auto;
 }
 
-.icon-customer {
+.customers__icon {
     fill: #afb1b8;
     width: 169px;
     height: 92px;
@@ -454,18 +448,15 @@ ul.social-icons li {
     border-radius: 4px;
 }
 
-.icon-customer:hover,
-.icon-customer:focus {
+.customers__icon:hover,
+.customers__icon:focus {
     fill: #2196f3;
     border-color: #2196f3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
 
-.icon-customer:focus {
-    fill: #2196f3;
-}
-address {
+.footer-container__address {
     padding-top: 9px;
     font-style: normal;
     color: #fff;
@@ -477,12 +468,12 @@ address {
     gap: 70px;
 }
 
-.address-bottom {
+.footer-container__address-bottom {
     max-width: 231px;
     line-height: 24px;
 }
 
-.contact-bottom {
+.footer-container__contact {
     display: flex;
 
     color: #757575;
@@ -529,8 +520,8 @@ button {
     margin-bottom: 34px;
 }
 
-.filter-menu:hover,
-.filter-menu:focus {
+.filter__menu:hover,
+.filter__menu:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
@@ -549,7 +540,7 @@ button {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
-.single-offer {
+.offers__single-offer {
     margin: 0 auto;
 
     flex-basis: calc((100% - 60) / 3);
@@ -558,13 +549,13 @@ button {
     overflow: hidden;
 }
 
-.single-offer:hover {
+.offers__single-offer:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
 
-.techno-back {
+.offers__techno-back {
     display: flex;
 
     align-items: center;
@@ -583,11 +574,11 @@ button {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
-.offers > .single-offer {
+.offers > .offers__single-offer {
     overflow: hidden;
 }
 
-.single-offer:hover .techno-back {
+.offers__single-offer:hover .offers__techno-back {
     visibility: visible;
 
     opacity: 1;
@@ -595,27 +586,27 @@ button {
     transform: translateY(0);
 }
 
-.techno-desc {
+.offers__techno-desc {
     width: 322px;
     height: 140px;
     font-size: 18px;
     color: #fff;
 }
 
-.lower-offer-part {
+.offers__lower-offer-part {
     border-style: solid;
     border-color: #eeeeee;
     border-top: 0;
     height: 110px;
 }
 
-.single-offer-flow {
+.offers__single-offer-flow {
     position: relative;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-.example-offer-name {
+.offers__example-offer-name {
     display: flex;
 
     font-size: 18px;
@@ -627,7 +618,7 @@ button {
     padding-top: 20px;
 }
 
-.example-offer-category {
+.offers__example-offer-category {
     display: flex;
     padding-bottom: 20px;
     color: #757575;
@@ -637,7 +628,7 @@ button {
     padding-left: 24px;
 }
 
-.subscription {
+.newsletter__subscription {
     display: flex;
     justify-content: flex-start;
 
@@ -646,7 +637,7 @@ button {
     padding: 0;
 }
 
-.mail-box {
+.newsletter__mail-box {
     height: 50px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -661,7 +652,7 @@ button {
     padding-right: 0;
     margin: 0 auto;
 }
-.button-send {
+.newsletter__button-send {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -671,14 +662,14 @@ button {
     height: 50px;
 }
 
-.mail-send-svg {
+.newsletter__mail-send-svg {
     fill: #fff;
 }
 .email {
     color: #fff;
 }
 
-.contact-header {
+.modal__contact-header {
     position: absolute;
     text-align: center;
     color: #212121;
@@ -689,10 +680,10 @@ button {
     font-style: 700;
 }
 
-.formula {
+.modal__formula {
     padding-top: 75px;
 }
-.form-style {
+.modal__form-style {
     display: flex;
     flex-direction: column;
 
@@ -702,7 +693,7 @@ button {
     padding-right: 40px;
 }
 
-.form-svg {
+.modal__form-svg {
     position: absolute;
     top: 11px;
     left: 12px;
@@ -710,7 +701,7 @@ button {
     fill: black;
 }
 
-.form-box {
+.modal__form-box {
     display: flex;
 
     position: relative;
@@ -723,7 +714,7 @@ button {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.text-field {
+.modal__text-field {
     width: 415px;
     padding-left: 20px;
     height: 38px;
@@ -731,7 +722,7 @@ button {
     outline: none;
 }
 
-.form-box-comment {
+.modal__form-box-comment {
     display: flex;
 
     position: relative;
@@ -742,7 +733,7 @@ button {
     align-items: center;
     padding-left: 12px;
 }
-.text-window {
+.modal__text-window {
     padding-top: 10px;
     width: 448px;
     padding-right: 0;
@@ -751,8 +742,8 @@ button {
     outline: none;
 }
 
-.form-box:hover,
-.form-box:focus {
+.modal__form-box:hover,
+.modal__form-box:focus {
     cursor: pointer;
     border: 1px solid #2196f3;
     transition-property: outline;
@@ -761,8 +752,8 @@ button {
     fill: #2196f3;
 }
 
-.text-field:hover + svg,
-.text-field:focus + svg {
+.modal__text-field:hover + svg,
+.modal__text-field:focus + svg {
     cursor: pointer;
     fill: #2196f3;
 
@@ -771,8 +762,8 @@ button {
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
 
-.form-box-comment:hover,
-.form-box-comment:focus {
+.modal__form-box-comment:hover,
+.modal__form-box-comment:focus {
     cursor: pointer;
     border: 1px solid #2196f3;
     transition-property: outline;
@@ -780,7 +771,7 @@ button {
     transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
     fill: #2196f3;
 }
-.acceptance-label {
+.modal__acceptance-label {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -795,11 +786,11 @@ button {
     justify-content: center;
     align-items: baseline;
 }
-.acceptance-label a {
+.modal__acceptance-label a {
     color: #757575;
 }
 
-.acceptance-checked {
+.modal__acceptance-checked {
     width: 16px;
     height: 15px;
     border: 2.5px solid #212121;
@@ -807,30 +798,32 @@ button {
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.acceptance-input:checked ~ .acceptance-checked {
+.modal__acceptance-input:checked ~ .modal__acceptance-checked {
     border: 0 solid #212121;
     background-color: #2196f3;
     fill: #fff;
 }
-.acceptance-checked:hover,
-.acceptance-checked:focus {
+.modal__acceptance-checked:hover,
+.modal__acceptance-checked:focus {
     border: 4px solid #212121;
 }
-.checked-bacground {
+.modal__checked-bacground {
     display: block;
     visibility: hidden;
     transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.acceptance-input:checked ~ .acceptance-checked .checked-bacground {
+.modal__acceptance-input:checked
+    ~ .modal__acceptance-checked
+    .modal__checked-bacground {
     display: block;
     visibility: visible;
 }
-.checkbox-hidden {
+.modal__checkbox-hidden {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
 }
-.order {
+.modal__order {
     display: block;
     align-items: center;
     margin: 0 auto;
@@ -852,8 +845,8 @@ button {
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order:hover,
-.order:focus {
+.modal__order:hover,
+.modal__order:focus {
     background-color: #f5f4fa;
     color: #212121;
 }

@@ -12,29 +12,40 @@
         />
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="container">
-                <div class="menu-block">
-                    <a class="logo" href="">WebStudio</a>
+                <div class="header__wrapper">
+                    <a class="header__logo" href="">WebStudio</a>
                     <nav>
-                        <ul class="nav-menu">
+                        <ul class="header__menu">
                             <li>
-                                <a class="menu" href="./index.html">Studio</a>
+                                <a class="header__item" href="./index.html"
+                                    >Studio</a
+                                >
                             </li>
                             <li>
                                 <a
-                                    class="menu is-active"
+                                    class="header__item header__item--active"
                                     href="./portfolio.html"
                                     >Portfolio</a
                                 >
                             </li>
-                            <li><a class="menu" href="">Contacts</a></li>
+                            <li>
+                                <a class="header__item" href="">Contacts</a>
+                            </li>
                         </ul>
                     </nav>
 
-                    <div class="contact-up">
-                        <a class="contact" href="mailto:info@devstutio.com">
-                            <svg class="contact-svg" width="16px" height="12px">
+                    <div class="header__contact-list">
+                        <a
+                            href="mailto:info@devstutio.com"
+                            class="header__contact"
+                        >
+                            <svg
+                                class="header__contact-svg"
+                                width="44px"
+                                height="16px"
+                            >
                                 <use
                                     href="./images/icons.svg#icon-envelope"
                                 ></use>
@@ -42,10 +53,10 @@
                             info@devstutio.com</a
                         >
 
-                        <a class="contact" href="phone:+121277224150"
+                        <a href="phone:+121277224150" class="header__contact"
                             ><svg
-                                class="contact-svg"
-                                width="10px"
+                                class="header__contact-svg"
+                                width="40px"
                                 height="16px"
                             >
                                 <use
@@ -62,29 +73,29 @@
         <main>
             <div class="section">
                 <ul class="filter">
-                    <li class="filter-menu">
+                    <li class="filter__menu">
                         <button type="button">All</button>
                     </li>
-                    <li class="filter-menu">
+                    <li class="filter__menu">
                         <button type="button">Web-sites</button>
                     </li>
-                    <li class="filter-menu">
+                    <li class="filter__menu">
                         <button type="button">Apps</button>
                     </li>
-                    <li class="filter-menu">
+                    <li class="filter__menu">
                         <button type="button">Design</button>
                     </li>
-                    <li class="filter-menu">
+                    <li class="filter__menu">
                         <button type="button">Marketing</button>
                     </li>
                 </ul>
 
                 <div class="container">
                     <ul class="offers">
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -98,20 +109,20 @@
                                 />
                             </div>
 
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name"
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name"
                                     >Technoduck</span
                                 >
-                                <span class="example-offer-category"
+                                <span class="offers__example-offer-category"
                                     >Web-site</span
                                 >
                             </div>
                         </li>
 
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -124,20 +135,20 @@
                                     alt="Basketball poster"
                                 />
                             </div>
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name">
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name">
                                     Poster New Orlean vs Golden Star
                                 </span>
-                                <span class="example-offer-category"
+                                <span class="offers__example-offer-category"
                                     >Design</span
                                 >
                             </div>
                         </li>
 
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -150,18 +161,20 @@
                                     alt="Seafood restaurant logo"
                                 />
                             </div>
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name">
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name">
                                     Seafood restaurant
                                 </span>
-                                <span class="example-offer-category">Apps</span>
+                                <span class="offers__example-offer-category"
+                                    >Apps</span
+                                >
                             </div>
                         </li>
 
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -174,19 +187,19 @@
                                     alt="Project prime - headset picture"
                                 />
                             </div>
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name"
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name"
                                     >Project Prime</span
                                 >
-                                <span class="example-offer-category"
+                                <span class="offers__example-offer-category"
                                     >Marketing</span
                                 >
                             </div>
                         </li>
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -196,17 +209,19 @@
                                 </div>
                                 <img src="images/port5.jpg" alt="Boxes" />
                             </div>
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name"
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name"
                                     >Project Boxes</span
                                 >
-                                <span class="example-offer-category">Apps</span>
+                                <span class="offers__example-offer-category"
+                                    >Apps</span
+                                >
                             </div>
                         </li>
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -217,20 +232,20 @@
 
                                 <img src="images/port6.jpg" alt="Screen" />
                             </div>
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name"
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name"
                                     >Inspiration has no Borders</span
                                 >
 
-                                <span class="example-offer-category"
+                                <span class="offers__example-offer-category"
                                     >Web-site</span
                                 >
                             </div>
                         </li>
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -240,19 +255,19 @@
                                 </div>
                                 <img src="images/port7.jpg" alt="Open book" />
                             </div>
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name"
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name"
                                     >Limited Edition</span
                                 >
-                                <span class="example-offer-category"
+                                <span class="offers__example-offer-category"
                                     >Design</span
                                 >
                             </div>
                         </li>
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -262,19 +277,19 @@
                                 </div>
                                 <img src="images/port8.jpg" alt="Paper label" />
                             </div>
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name"
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name"
                                     >Project LAB</span
                                 >
-                                <span class="example-offer-category"
+                                <span class="offers__example-offer-category"
                                     >Marketing</span
                                 >
                             </div>
                         </li>
-                        <li class="single-offer">
-                            <div class="single-offer-flow">
-                                <div class="techno-back">
-                                    <div class="techno-desc">
+                        <li class="offers__single-offer">
+                            <div class="offers__single-offer-flow">
+                                <div class="offers__techno-back">
+                                    <div class="offers__techno-desc">
                                         Technoduck is a state-of-the-art
                                         coronavirus distribution platform.
                                         Companies use this platform for digital
@@ -287,11 +302,13 @@
                                     alt="Laptop and hands"
                                 />
                             </div>
-                            <div class="lower-offer-part">
-                                <span class="example-offer-name"
+                            <div class="offers__lower-offer-part">
+                                <span class="offers__example-offer-name"
                                     >Growing Business</span
                                 >
-                                <span class="example-offer-category">Apps</span>
+                                <span class="offers__example-offer-category"
+                                    >Apps</span
+                                >
                             </div>
                         </li>
                     </ul>
@@ -302,18 +319,20 @@
         <footer>
             <div class="container">
                 <div class="footer-container">
-                    <div class="address-bottom">
+                    <div class="footer-container__address-bottom">
                         <a class="logo" href="">WebStudio</a>
-                        <address>
+                        <address class="footer-container__address">
                             695 Park Ave, New York, NY 10065,
                             <br />United States
                         </address>
                         <a
-                            class="contact-bottom"
+                            class="footer-container__contact"
                             href="mailto:info@devstutio.com"
                             >info@devstutio.com</a
                         >
-                        <a class="contact-bottom" href="phone:+121277224150"
+                        <a
+                            class="footer-container__contact"
+                            href="phone:+121277224150"
                             >+1 212-772-24150</a
                         >
                     </div>
@@ -322,45 +341,29 @@
                         <h4>FIND US ON</h4>
                         <div class="social-bottom">
                             <ul class="social-icons">
-                                <li class="social">
-                                    <svg
-                                        class="social-svg"
-                                        width="20px"
-                                        height="20px"
-                                    >
+                                <li class="social-icons__icon">
+                                    <svg width="20px" height="20px">
                                         <use
                                             href="./images/icons.svg#icon-instagram-2"
                                         ></use>
                                     </svg>
                                 </li>
-                                <li class="social">
-                                    <svg
-                                        class="social-svg"
-                                        width="20px"
-                                        height="20px"
-                                    >
+                                <li class="social-icons__icon">
+                                    <svg width="20px" height="20px">
                                         <use
                                             href="./images/icons.svg#icon-twitter-1"
                                         ></use>
                                     </svg>
                                 </li>
-                                <li class="social">
-                                    <svg
-                                        class="social-svg"
-                                        width="20px"
-                                        height="20px"
-                                    >
+                                <li class="social-icons__icon">
+                                    <svg width="20px" height="20px">
                                         <use
                                             href="./images/icons.svg#icon-facebook-1"
                                         ></use>
                                     </svg>
                                 </li>
-                                <li class="social">
-                                    <svg
-                                        class="social-svg"
-                                        width="20px"
-                                        height="20px"
-                                    >
+                                <li class="social-icons__icon">
+                                    <svg width="20px" height="20px">
                                         <use
                                             href="./images/icons.svg#icon-linkedin-1"
                                         ></use>
@@ -372,10 +375,10 @@
                     <div class="newsletter">
                         <h4>Subscribe to the newsletter</h4>
                         <form name="mail-subscribe">
-                            <div class="subscription">
+                            <div class="newsletter__subscription">
                                 <label for="user-email">
                                     <input
-                                        class="mail-box"
+                                        class="newsletter__mail-box"
                                         type="email"
                                         name="email"
                                         id="user-email"
@@ -384,10 +387,13 @@
                                     />
                                 </label>
 
-                                <button type="submit" class="button-send">
+                                <button
+                                    type="submit"
+                                    class="newsletter__button-send"
+                                >
                                     Subscribe
                                     <svg
-                                        class="mail-send-svg"
+                                        class="newsletter__mail-send-svg"
                                         width="24px"
                                         height="24px"
                                     >

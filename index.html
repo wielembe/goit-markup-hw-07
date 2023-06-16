@@ -12,29 +12,29 @@
         />
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="container">
-                <div class="menu-block">
+                <div class="header__wrapper">
                     <a class="logo" href="">WebStudio</a>
                     <nav>
-                        <ul class="nav-menu">
+                        <ul class="header__menu">
                             <li>
-                                <a class="menu is-active" href="./index.html"
+                                <a class="header__item header__item--active" href="./index.html"
                                     >Studio</a
                                 >
                             </li>
                             <li>
-                                <a class="menu" href="./portfolio.html"
+                                <a class="header__item" href="./portfolio.html"
                                     >Portfolio</a
                                 >
                             </li>
-                            <li><a class="menu" href="">Contacts</a></li>
+                            <li><a class="header__item" href="">Contacts</a></li>
                         </ul>
                     </nav>
 
-                    <div class="contact-up">
-                        <a href="mailto:info@devstutio.com" class="contact">
-                            <svg class="contact-svg" width="44px" height="16px">
+                    <div class="header__contact-list">
+                        <a href="mailto:info@devstutio.com" class="header__contact">
+                            <svg class="header__contact-svg" width="44px" height="16px">
                                 <use
                                     href="./images/icons.svg#icon-envelope"
                                 ></use>
@@ -42,8 +42,8 @@
                             info@devstutio.com</a
                         >
 
-                        <a href="phone:+121277224150" class="contact">
-                            <svg class="contact-svg" width="40px" height="16px">
+                        <a href="phone:+121277224150" class="header__contact">
+                            <svg class="header__contact-svg" width="40px" height="16px">
                                 <use
                                     href="./images/icons.svg#icon-smartphone-1"
                                 ></use>
@@ -58,7 +58,7 @@
             <div class="banner">
                 <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
 
-                <button data-modal-open class="test big-button" type="button">
+                <button data-modal-open class="banner__button" type="button">
                     Request our service
                 </button>
             </div>
@@ -66,22 +66,22 @@
             <div class="container">
                 <div class="section">
                     <ul class="highlights">
-                        <li class="highlight">
-                            <svg class="icon-menu" width="270px" height="95px">
+                        <li class="highlights__item">
+                            <svg class="highlights__icon" width="270px" height="95px">
                                 <use
                                     href="./images/icons.svg#icon-antennablue"
                                     height="70px"
                                 ></use>
                             </svg>
                             <h3>ATTENTION TO DETAILS</h3>
-                            <span class="highlight-desc">
+                            <span class="highlights__desc">
                                 We go into all the details and processes of your
                                 business to develop a customized solution.</span
                             >
                         </li>
 
-                        <li class="highlight">
-                            <svg class="icon-menu" width="270px" height="95px">
+                        <li class="highlights__item">
+                            <svg class="highlights__icon" width="270px" height="95px">
                                 <use
                                     href="./images/icons.svg#icon-clockblue"
                                     height="70px"
@@ -89,15 +89,15 @@
                             </svg>
 
                             <h3>PUNCTUALITY</h3>
-                            <span class="highlight-desc">
+                            <span class="highlights__desc">
                                 With us, you can feel safe and secure. An
                                 important principle of the company: respect your
                                 time and respect the agreed deadlines.
                             </span>
                         </li>
 
-                        <li class="highlight">
-                            <svg class="icon-menu" width="270px" height="95px">
+                        <li class="highlights__item">
+                            <svg class="highlights__icon" width="270px" height="95px">
                                 <use
                                     href="./images/icons.svg#icon-diagramblue"
                                     height="70px"
@@ -105,15 +105,15 @@
                             </svg>
 
                             <h3>PLANNING</h3>
-                            <span class="highlight-desc">
+                            <span class="highlights__desc">
                                 You will be able to observe and participate in
                                 every phase of solution development and
                                 implementation.</span
                             >
                         </li>
 
-                        <li class="highlight">
-                            <svg class="icon-menu" width="270px" height="95px">
+                        <li class="highlights__item">
+                            <svg class="highlights__icon" width="270px" height="95px">
                                 <use
                                     href="./images/icons.svg#icon-astroblue"
                                     height="70px"
@@ -121,7 +121,7 @@
                             </svg>
                             <h3>MODERN TECHNOLOGIES</h3>
 
-                            <span class="highlight-desc"
+                            <span class="highlights__desc"
                                 >We use innovative tools to solve assigned
                                 tasks. It's time to simplify work
                                 processes.</span
@@ -134,55 +134,55 @@
                     <h2>What we do</h2>
                     <!--potential links to be added to the pictures next. I removed width and height parameters below as they are defined in css-->
                     <ul class="main-images">
-                        <li class="main-image">
+                        <li class="main-images__image">
                             <img
                                 src="images/box1.jpg"
                                 alt="person
                             clicking on the keyboard"
                             />
-                            <div class="main-image-back">
-                                <p class="main-image-desc">DESKTOP APPS</p>
+                            <div class="main-images__back">
+                                <p class="main-images__desc">DESKTOP APPS</p>
                             </div>
                         </li>
-                        <li class="main-image">
+                        <li class="main-images__image">
                             <img
                                 src="images/box2.jpg"
                                 alt="person using telephone"
                             />
-                            <div class="main-image-back">
-                                <p class="main-image-desc">MOBILE APPS</p>
+                            <div class="main-images__back">
+                                <p class="main-images__desc">MOBILE APPS</p>
                             </div>
                         </li>
-                        <li class="main-image">
+                        <li class="main-images__image">
                             <img
                                 src="images/box3.jpg"
                                 alt="person using tablet"
                             />
-                            <div class="main-image-back">
-                                <p class="main-image-desc">DESIGN SOLUTIONS</p>
+                            <div class="main-images__back">
+                                <p class="main-images__desc">DESIGN SOLUTIONS</p>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div class="full-team-section">
+            <div class="team-section">
                 <div class="container">
                     <div class="section">
                         <h2>Our Team</h2>
-                        <ul class="our-team-section">
-                            <li class="person-space">
+                        <ul class="people">
+                            <li class="people__person-space">
                                 <img
-                                    class="person-pic"
+                                    class="people__person-pic"
                                     src="images/img4.jpg"
                                     alt="Christopher Walker photo"
                                 />
-                                <span class="name">Christopher Walker</span>
-                                <span class="function">Product Designer</span>
+                                <span class="people__name">Christopher Walker</span>
+                                <span class="people__function">Product Designer</span>
                                 <ul class="social-icons">
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                           
                                             width="20px"
                                             height="20px"
                                         >
@@ -191,9 +191,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -202,9 +202,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -213,9 +213,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -227,18 +227,18 @@
                                 </ul>
                             </li>
 
-                            <li class="person-space">
+                            <li class="people__person-space">
                                 <img
-                                    class="person-pic"
+                                    class="people__person-pic"
                                     src="images/img1.jpg"
                                     alt="Kylie Evans photo"
                                 />
-                                <span class="name">Kylie Evans</span>
-                                <span class="function">Frontend Developer</span>
+                                <span class="people__name">Kylie Evans</span>
+                                <span class="people__function">Frontend Developer</span>
                                 <ul class="social-icons">
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -247,9 +247,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -258,9 +258,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -269,9 +269,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -283,18 +283,18 @@
                                 </ul>
                             </li>
 
-                            <li class="person-space">
+                            <li class="people__person-space">
                                 <img
-                                    class="person-pic"
+                                    class="people__person-pic"
                                     src="images/img2.jpg"
                                     alt="Ryan Harris photo"
                                 />
-                                <span class="name">Ryan Harris</span>
-                                <span class="function">Marketing</span>
+                                <span class="people__name">Ryan Harris</span>
+                                <span class="people__function">Marketing</span>
                                 <ul class="social-icons">
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -303,9 +303,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -314,9 +314,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -325,9 +325,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -338,18 +338,18 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="person-space">
+                            <li class="people__person-space">
                                 <img
-                                    class="person-pic"
+                                    class="people__person-pic"
                                     src="images/img3.jpg"
                                     alt="Tyler Moore photo"
                                 />
-                                <span class="name">Tyler Moore</span>
-                                <span class="function">UI Designer</span>
+                                <span class="people__name">Tyler Moore</span>
+                                <span class="people__function">UI Designer</span>
                                 <ul class="social-icons">
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -358,9 +358,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -369,9 +369,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -380,9 +380,9 @@
                                             ></use>
                                         </svg>
                                     </li>
-                                    <li class="social">
+                                    <li class="social-icons__icon">
                                         <svg
-                                            class="social-svg"
+                                            
                                             width="20px"
                                             height="20px"
                                         >
@@ -400,9 +400,9 @@
             <div class="container">
                 <div class="section">
                     <h2>Regular Customers</h2>
-                    <ul class="our-customers-list">
+                    <ul class="customers">
                         <li>
-                            <svg class="icon-customer">
+                            <svg class="customers__icon">
                                 <use
                                     href="./images/icons.svg#icon-Logo"
                                     height="92px"
@@ -411,7 +411,7 @@
                             </svg>
                         </li>
                         <li>
-                            <svg class="icon-customer">
+                            <svg class="customers__icon">
                                 <use
                                     href="./images/icons.svg#icon-Logo-1"
                                     height="92px"
@@ -420,7 +420,7 @@
                             </svg>
                         </li>
                         <li>
-                            <svg class="icon-customer">
+                            <svg class="customers__icon">
                                 <use
                                     href="./images/icons.svg#icon-Logo-2"
                                     height="92px"
@@ -429,7 +429,7 @@
                             </svg>
                         </li>
                         <li>
-                            <svg class="icon-customer">
+                            <svg class="customers__icon">
                                 <use
                                     href="./images/icons.svg#icon-Logo-3"
                                     height="92px"
@@ -438,7 +438,7 @@
                             </svg>
                         </li>
                         <li>
-                            <svg class="icon-customer">
+                            <svg class="customers__icon">
                                 <use
                                     href="./images/icons.svg#icon-Logo-4"
                                     height="92px"
@@ -447,7 +447,7 @@
                             </svg>
                         </li>
                         <li>
-                            <svg class="icon-customer">
+                            <svg class="customers__icon">
                                 <use
                                     href="./images/icons.svg#icon-Logo-5"
                                     height="92px"
@@ -463,18 +463,18 @@
         <footer>
             <div class="container">
                 <div class="footer-container">
-                    <div class="address-bottom">
+                    <div class="footer-container__address-bottom">
                         <a class="logo" href="">WebStudio</a>
-                        <address>
+                        <address class="footer-container__address">
                             695 Park Ave, New York, NY 10065,
                             <br />United States
                         </address>
                         <a
-                            class="contact-bottom"
+                            class="footer-container__contact"
                             href="mailto:info@devstutio.com"
                             >info@devstutio.com</a
                         >
-                        <a class="contact-bottom" href="phone:+121277224150"
+                        <a class="footer-container__contact" href="phone:+121277224150"
                             >+1 212-772-24150</a
                         >
                     </div>
@@ -483,9 +483,9 @@
                         <h4>FIND US ON</h4>
                         <div class="social-bottom">
                             <ul class="social-icons">
-                                <li class="social">
+                                <li class="social-icons__icon">
                                     <svg
-                                        class="social-svg"
+                                        
                                         width="20px"
                                         height="20px"
                                     >
@@ -494,9 +494,9 @@
                                         ></use>
                                     </svg>
                                 </li>
-                                <li class="social">
+                                <li class="social-icons__icon">
                                     <svg
-                                        class="social-svg"
+                                        
                                         width="20px"
                                         height="20px"
                                     >
@@ -505,9 +505,9 @@
                                         ></use>
                                     </svg>
                                 </li>
-                                <li class="social">
+                                <li class="social-icons__icon">
                                     <svg
-                                        class="social-svg"
+                                        
                                         width="20px"
                                         height="20px"
                                     >
@@ -516,9 +516,9 @@
                                         ></use>
                                     </svg>
                                 </li>
-                                <li class="social">
+                                <li class="social-icons__icon">
                                     <svg
-                                        class="social-svg"
+                                        
                                         width="20px"
                                         height="20px"
                                     >
@@ -533,10 +533,10 @@
                     <div class="newsletter">
                         <h4>Subscribe to the newsletter</h4>
                         <form name="mail-subscribe">
-                            <div class="subscription">
+                            <div class="newsletter__subscription">
                                 <label for="user-email">
                                     <input
-                                        class="mail-box"
+                                        class="newsletter__mail-box"
                                         type="email"
                                         name="email"
                                         id="user-email"
@@ -545,10 +545,10 @@
                                     />
                                 </label>
 
-                                <button type="submit" class="button-send">
+                                <button type="submit" class="newsletter__button-send">
                                     Subscribe
                                     <svg
-                                        class="mail-send-svg"
+                                        class="newsletter__mail-send-svg"
                                         width="24px"
                                         height="24px"
                                     >
@@ -566,25 +566,25 @@
 
         <div class="is-hidden backdrop" data-modal>
             <div class="modal">
-                <button class="modal-close" data-modal-close>X</button>
+                <button class="modal__modal-close" data-modal-close>X</button>
                 <form
                     name="mail-subscribe"
                     autocomplete="on"
-                    class="form-style"
+                    class="modal__form-style"
                 >
-                    <h5 class="contact-header">
+                    <h5 class="modal__contact-header">
                         Leave your information and we'll call you back
                     </h5>
-                    <div class="formula">
+                    <div class="modal__formula">
                         <label for="username">Name</label>
-                        <div class="form-box">
+                        <div class="modal__form-box">
                             <input
                                 id="username"
                                 name="username"
                                 type="name"
-                                class="text-field"
+                                class="modal__text-field"
                             />
-                            <svg class="form-svg" width="18px" height="18px">
+                            <svg class="modal__form-svg" width="18px" height="18px">
                                 <use
                                     href="./images/icons.svg#icon-person-black"
                                 ></use>
@@ -593,14 +593,14 @@
                         </div>
 
                         <label for="email">E-mail</label>
-                        <div class="form-box">
+                        <div class="modal__form-box">
                             <input
                                 id="email"
                                 name="email"
                                 type="email"
-                                class="text-field"
+                                class="modal__text-field"
                             />
-                            <svg class="form-svg" width="18px" height="18px">
+                            <svg class="modal__form-svg" width="18px" height="18px">
                                 <use
                                     href="./images/icons.svg#icon-email-black"
                                 ></use>
@@ -609,14 +609,14 @@
                         </div>
 
                         <label for="phone">Telephone</label>
-                        <div class="form-box">
+                        <div class="modal__form-box">
                             <input
                                 id="phone"
                                 name="phone"
                                 type="phone"
-                                class="text-field"
+                                class="modal__text-field"
                             />
-                            <svg class="form-svg" width="18px" height="18px">
+                            <svg class="modal__form-svg" width="18px" height="18px">
                                 <use
                                     href="./images/icons.svg#icon-phone-black"
                                 ></use>
@@ -625,24 +625,24 @@
                         </div>
 
                         <label for="id-comment">Comments</label>
-                        <div class="form-box-comment">
+                        <div class="modal__form-box-comment">
                             <textarea
                                 id="id-comment"
                                 name="comment"
                                 placeholder="Enter the text"
-                                class="text-window"
+                                class="modal__text-window"
                             ></textarea>
                         </div>
                         <label class="acceptance-label" for="user-acceptance">
                             <input
-                                class="acceptance-input checkbox-hidden"
+                                class="modal__acceptance-input modal__checkbox-hidden"
                                 type="checkbox"
                                 name="acceptance"
                                 id="user-acceptance"
                             />
-                            <div class="acceptance-checked">
+                            <div class="modal__acceptance-checked">
                                 <svg
-                                    class="checked-bacground"
+                                    class="modal__checked-bacground"
                                     width="16"
                                     height="15"
                                 >
@@ -652,14 +652,14 @@
                                 </svg>
                             </div>
 
-                            <div class="checkbox-text">
+                            <div class="modal__checkbox-text">
                                 I agree with the <a href="">Newsletter</a> and
                                 accept <a href="">the Terms and Conditions</a>
                             </div>
                         </label>
-                        <div class="send-button">
+                        <div class="modal__send-button">
 
-                        <button type="submit" class="order">Send</button>
+                        <button type="submit" class="modal__order">Send</button>
                     </div>
                     
                 </form>
