@@ -1,6 +1,9 @@
 .banner {
-    background-image: url(/goit-markup-hw-04/images/back.jpg);
-    background-image: linear-gradient(to right, #2f303a 40%);
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/back.jpg);
 
     background-position: center;
     background-size: cover;

@@ -60,7 +60,18 @@
         }
     }
 
-    &_formula {
+    &__contact-header {
+        position: absolute;
+        text-align: center;
+        color: #212121;
+        font-size: 20px;
+        letter-spacing: 0.03em;
+        line-height: 23px;
+        margin-bottom: 2px;
+        font-style: 700;
+    }
+
+    &__formula {
         padding-top: 75px;
     }
 

@@ -3,6 +3,7 @@
 
     border-color: #ececec;
     margin: 0 auto;
+
     &__wrapper {
         display: flex;
         flex-wrap: nowrap;
@@ -17,6 +18,14 @@
         width: 285px;
         justify-content: space-between;
         margin-right: 314px;
+    }
+
+    &__contact-svg {
+        fill: currentColor;
+
+        align-content: baseline;
+        padding-right: 10px;
+        gap: 0;
     }
     &__item {
         color: #212121;
@@ -50,7 +59,7 @@
         text-align: center;
         line-height: 1.17;
     }
-    &__header__contact {
+    &__contact {
         display: flex;
         justify-content: baseline;
         align-items: center;
